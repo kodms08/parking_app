@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="90dp"
+        android:hint="NAME"
+        android:textSize="15sp"
+        android:textColorHint="@color/colorBlack"/>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:hint="PHONE NUMBER/ 010 exception"
+        android:textSize="15sp"
+        android:textColorHint="@color/colorBlack"/>
+
+    <EditText
+        android:id="@+id/car"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:hint="CAR NUMBER/ only the last 4 numbers"
+        android:textSize="15sp"
+        android:textColorHint="@color/colorBlack"/>
+
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="SIGN_UP"
+        android:background="@color/colorBlack"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="HOME"
+        android:background="@color/colorBlack"
+        android:textColor="@color/colorWhite"/>
+
+
+</LinearLayout>
